@@ -1,0 +1,28 @@
+.anuncio__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 8em 20em;
+}
+
+.anuncio__texto {
+    color: var(--cor-principal);
+    background-color: #F9F4F4;
+    border-radius: 30px;
+    margin: 0 45%;
+    padding: 0.5em 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.anuncio__titulo {
+    font-size: 36px;
+    margin: 0.5em 0 0 0;
+}
+
+.anuncio__descrição {
+    color: var(--cor-do-texto);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 0 2em 0;
+}

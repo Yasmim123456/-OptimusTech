@@ -1,0 +1,28 @@
+.vagas {
+    margin: 0 30vw;
+}
+
+.titulo__area{
+    font-size: 20px;
+}
+
+.vaga{
+    margin: 1em 0;
+    padding: 1.5em;
+    border: 1px solid #EAECF0;
+    border-radius: 1em;
+}
+
+.titulo__vaga{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-between;
+    width: 26vh;
+    padding: 1.5em 0 0;
+    color: var(--cor-do-texto);
+    font-weight: 500;
+}

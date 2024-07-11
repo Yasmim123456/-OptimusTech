@@ -1,0 +1,15 @@
+.metricas__container{
+    display: flex;
+    justify-content: center;
+    margin: 1em 10em;
+}
+
+.metricas__container__grupo {
+    padding: 2em;
+    width: 17%;
+}
+
+.metrica__número {
+    color: var(--cor-principal);
+    font-size: 60px;
+}

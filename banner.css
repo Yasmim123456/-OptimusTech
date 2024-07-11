@@ -1,0 +1,23 @@
+    .banner {
+        background: var(white);
+        text-align: center;
+        padding: 4em 5em;
+    }
+
+    .banner__texto{
+        color: var(--cor-principal);
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .banner__titulo{
+        margin: 1em 0;
+        font-size: 48px;
+        color: var(--cor-do-texto-destaque);
+    }
+
+    .banner__descrição {
+        color: var(--cor-do-texto);
+        font-weight: 400;
+        padding: 0 29vw;
+    }

@@ -1,0 +1,32 @@
+.depoimentos {
+   margin: 8em 19em;
+}
+
+.depoimentos__container {
+    background-color: var(--fonte-fundo-depoimento);
+    text-align: center;
+    padding: 5em;
+    border-radius: 1em;
+}
+
+.depoimentos__texto {
+    color: var(--cor-principal);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.depoimentos__título {
+    font-size: 36px;
+}
+
+.depoimentos__colaboradora {
+    font-weight: 500;
+    margin-top: 1em;
+}
+
+.depoimentos__colaboradora__cargo{
+    color: var(--cor-do-texto);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0.5em;
+}

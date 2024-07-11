@@ -1,0 +1,26 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(metricas.css);
+@import url(anuncio.css);
+@import url(vagas.css);
+@import url(depoimentos.css);
+@import url(cadastro.css);
+
+:root{
+    --cor-de-fundo:white;
+    --cor-de-fundo-secundária:#F9FAFB;
+    --cor-do-texto:#667085;
+    --cor-principal:#8E2424;
+    --cor-do-texto-destaque:#3A404E;
+    --fonte-principal: "Inter";
+    --fonte-fundo-depoimento: rgba(195, 25, 25, 0.03);
+}
+
+body{
+    width: 100%;
+    height: 100vw;
+    background-color:var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 300;
+}

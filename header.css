@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-left: 3em;
+}
+
+.logo__titulo {
+    padding-left: 0.5em;
+    font-size: 16px;
+}
+
+.links {
+    width: 50%;
+}
+
+.links a {
+    color: var(--cor-do-texto);
+    text-decoration: none;
+    margin-right: 2rem;
+    font-weight: 400;
+}
+
+button{
+    padding: 0.8em 1em;
+    border: none;
+    background: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.botão__item {
+    background-color: var(--cor-principal);
+    color: var(--cor-de-fundo);
+    border-radius: 8px;
+    margin-left: 1em;
+}
+
